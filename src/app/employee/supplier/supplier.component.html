@@ -1,0 +1,53 @@
+<div class="modal-content">
+  <form class="ng-pristine ng-valid" name="form" #f="ngForm">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Add Supplier</h5>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+        <span aria-hidden="true">&times;</span> </button>
+    </div>
+    <div class="modal-body">
+      <div class="all_content_wrapper heighAuto">
+        <div class="pr-3 mb-3 sal">
+          <table>
+            <tbody>
+              <tr>
+                <th style="width: 128px;" class="text-right">Supplier ID: </th>
+                <td>
+                  <input type="text" class="form-control" placeholder="" [(ngModel)]="supplier.supId"
+                    name="supId" (change)="idChange()" [ngClass]="{ 'invalid': isId }">
+                </td>
+              </tr>
+              <tr>
+                <th style="width: 128px;" class="text-right">Supplier Name: </th>
+                <td>
+                  <input type="text" class="form-control" placeholder="" [(ngModel)]="supplier.name"
+                    name="name"  (change)="nameChange()" [ngClass]="{ 'invalid': isName }">
+                </td>
+              </tr>
+              <tr>
+                <th style="width: 128px;" class="text-right">Phone: </th>
+                <td>
+                  <input type="text" class="form-control" placeholder="" [(ngModel)]="supplier.phone"
+                    name="phone">
+                </td>
+              </tr>
+              <tr>
+                <th style="width: 128px; vertical-align: top;" class="text-right">Adress: </th>
+                <td>
+                  <textarea class="form-control height" name="address" [(ngModel)]="supplier.address"></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer mt-1">
+      <button class="btn btn-primary" type="button" (click)="addSupplier()">
+        <i class="fas fa-save"></i>&nbsp;
+        Add
+      </button>
+      <button class="btn btn-danger" type="button" aria-label="Close" (click)="bsModalRef.hide()">Cancel</button>
+    </div>
+  </form>
+</div>

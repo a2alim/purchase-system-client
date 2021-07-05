@@ -1,0 +1,6 @@
+.mce-content-body p {
+    padding: 0;
+    margin: 2px 0;
+}
+
+.custom1 { list-style-image: url('../images/arrow-c.PNG'); }

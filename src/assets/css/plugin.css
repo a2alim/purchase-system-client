@@ -1,0 +1,3234 @@
+/* style index ==================================
+## tab-custom-all
+## dtrg-group row
+### scrool_ber csss
+### radiology result entry
+### Tab Multi Step
+### security/setup/user
+## bussiness ui
+## discount-type for border less
+## typeAheadBorder
+## ng-select-height-auto
+## typeAhead
+##typahead registration
+## typahead nurse station service
+## typeAheadNurser
+## typeahead-height-width  /fixed withd for ng select /
+## typeahead-container-full 
+## typeahead-container-auto
+## typeahead-boxhighlight
+## HR PAYROLL
+## start onoffswitch
+## footer-table-all
+## discharge-tab
+## tab-float
+## tab-padding-less
+## tab-small
+## reportingTime
+## hr-employee-tab
+## toggle-switch-all
+## sl td width for group table
+## loading-icon-all
+## form-control-bg-none
+## quickDiv3 for type ahead auto width
+## type-ahead-list-content-padding
+## material-management-typeahead
+## type-ahead-whitespace-btn 
+## sticky-0-typeahead
+## oncologyType
+## full-layout css
+## display board css
+## arrow-down-toggle
+## table td th width
+## select-transfer
+## btn cutom group
+## tootltip-custom
+## popover
+## ng-select-custom-round
+================================*/
+.modal-open {
+    padding-right: 0px !important;
+}
+.pacs-worklist-grid table th {
+    white-space: nowrap;
+}
+.th-colum-width {
+    width: 95px !important;
+    text-align: right !important;
+}
+.dropdown-item.active .table {
+    color: #fff;
+}
+.ui-draggable{
+	width: auto;
+	height: auto;
+	min-width:49%; max-width: 100%;
+	
+}
+.ui-draggable .modal-dialog{
+	max-width: 100%;margin: 0px;
+    overflow: hidden;
+}
+.modal-dragable-header{
+	background: #000;border-radius: 0px;
+}
+.modal-dragable-header span {
+    color: #fff;
+    /* opacity: 1; */
+    text-shadow: none !important;
+    top: 2px;
+}
+.modal-dragable-header .close {
+    opacity: 1;
+    box-shadow: none;
+}
+
+/* dragable-table */
+.cdk-drag{
+	background:#fff !important;
+	}
+	.cdk-drag .form-control {
+		height: calc(0px + 24px + 0px) !important;border: solid 1px #9cc9d6 !important;
+	}
+.modal.show .modal-dialog {
+    transform: none;
+    box-shadow: 0px 0px 4px #4a4a4a;
+    border-radius: 9px;
+}
+
+.sticky2 .dropdown-item {
+    white-space: inherit;padding-left: 3px;
+    padding-right: 3px;
+}
+.protocol-edit {
+    padding: 0px 0px;
+    /* width: 100%; */
+    box-shadow: none;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #585757;
+    border: solid 1px #fff;
+    padding-left: 6px;
+    font-size: 14px !important; margin-bottom: 2px;
+}
+
+.protocol-copy  {
+    padding: 0px 0px;
+    /* width: 100%; */
+    box-shadow: none;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #585757;
+    border: solid 1px #fff;
+    padding-left: 6px;margin-bottom: 2px;
+    font-size: 14px !important;
+}
+
+.protocol-delete{
+    padding: 0px 0px;
+    /* width: 100%; */
+    box-shadow: none;
+    border: 0px;margin-bottom: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #585757;
+    border: solid 1px #fff;
+    padding-left: 6px;
+    font-size: 14px !important;
+}
+.action-onc-pro-ic button {
+    width: 24px;
+}
+
+.page-wrapper .page-content .action-onc-pro-ic button i {
+    margin-right: 10px;
+}
+/* sl td width for group table */
+.sl-width-gro {
+    width: 50px !important;
+}
+.btn-setting-all .btn{
+	padding: 0px 10px;
+}
+.btn-setting-all .btn:after {
+    display: none;
+}
+.btn-setting-all .dropdown-menu {
+    bottom: 0px;
+    width: 100px; position: absolute !important;
+	 padding: 0px;
+	 background: transparent;
+	 border: 0px;
+}
+.btn-setting-all-inner{
+	bottom: 0px;
+	width: auto;
+	min-height: 35px;
+	padding: 0px;
+	background: #e8f8f9;border: solid 1px #70abaf;	
+}
+.btn-setting-all .dropdown-menu .dropdown-item {
+	color: #3e2922; cursor: pointer;
+
+}
+.btn-setting-all .dropdown-menu .dropdown-item:hover {
+	background-color: none!important;
+	
+}
+.btn-setting-all .dropdown-menu .dropdown-item:active {
+	background-color: none!important;
+	
+}
+
+
+.btn-protocol-setting .dropdown-menu{
+		height: 23px!important;
+}
+
+.complete-action-protocol{
+	color: #148219 !important;	
+}
+.close-action-protocol{
+	color: #940808 !important;	
+}
+.table-td-0 td{
+	padding: 0px !important;
+}
+.table-td-assign td{
+	padding: 0px 6px 0px 6px !important;
+}
+.top-sticky-all{
+	position: sticky;
+    top: 0px;
+    z-index: 9;
+    background: #dfe1e3 !important;
+    box-shadow: 0px 1px 3px #626060;
+}
+.width-80{width: 80%;}
+.width-79{width: 79%;}
+
+.hover-custom-table-row tr:hover{
+	background: #9bbdc1 !important;
+}
+.hover-custom-table-row tr:nth-of-type(odd):hover{
+	background: #9bbdc1 !important;
+}
+/* btn all css */
+.printPres{
+	padding: 0px 6px;
+}
+.prescription{
+	padding: 0px 6px;
+}
+.pre-medication-tab ul.nav.nav-tabs {
+    min-height: 27px !important;
+}
+.tab-small ul {
+	min-height: 32px !important;;
+	
+}
+.tab-small ul li a {
+    padding: 1px 8px !important;
+    height: 28px  !important; line-height: 24px;
+}
+.tab-small ul li a.active, .tab_vendor > li a.active > :hover, .tab_custom > li a.active > a:focus {
+	height: 28px  !important;
+}
+
+/* registration registartionTab */
+.tab-custom-all ul.nav.nav-tabs {
+    background: #aed8d4;
+    border: solid 1px #3d8c85;
+    border-bottom: 0px;border-radius: 6px 6px 0 0;padding-top: 4px;
+    padding-left: 3px;
+}
+
+.tab-custom-all .nav-tabs .nav-link.active{
+	color: #fff !important;background-color: #4c827d !important;border-radius: 6px 6px 0 0;  border: solid 1px #0f403c !important;border-bottom: 1px solid #fff !important;  
+}
+.tab-custom-all .tab-content {
+	border: solid 1px #3d8c85;
+
+}
+.tab-custom-all .nav-tabs li a {
+    font-size: 15px;padding: 4px 16px;
+    margin-right:2px;
+    border: solid 1px #307973 !important;
+    border-radius: 0px !important;
+    border-bottom: 0px !important;
+    border-radius: 6px 6px 0 0 !important;background: #c1e8e5;border-bottom: 1px solid #fff !important;  
+}
+.tab-custom-all .nav-tabs {
+    border-bottom: 0px !important;
+}
+
+.gen-tab .nav-tabs .nav-link.disabled {
+    color: #6c757d !important;
+}
+
+
+
+
+.input-height-23{
+	height: 23px !important;
+}
+.footer-table-all{
+	min-height: 40px; background: #ececec;
+}
+td.table-width-custom {
+    white-space: nowrap;
+}
+.white-space-none .ng-select.ng-select-single .ng-select-container .ng-value-container, .ng-select.ng-select-single .ng-select-container .ng-value-container{
+	white-space: inherit;
+}
+.white-space-none .ng-select.ng-select-single .ng-select-container .ng-value-container, .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    white-space: inherit;
+}
+.white-space-none .ng-select .ng-select-container .ng-value-container {
+    display: grid;
+}
+
+.type-ahead-pres button.dropdown-item {
+    white-space: inherit !important;
+}
+/* dtrg-group for all group table */
+.dataTable tr.dtrg-group.dtrg-level-1 td {
+    font-weight: 700;
+    background-color: #4c827d;
+    text-align: left;
+    color: #fff;
+    padding-left: 9px!important;
+    border-left: 20px solid #b6d8d5 !important;
+}
+
+.dataTable tr.dtrg-group.dtrg-level-0 {
+    font-weight: 700;
+    background-color: #b6d8d5 !important;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+}
+/* end dtrg-group for all group table */
+.gray-bg{
+	background-color: #f7f7f7;
+}
+.border-radius-none{
+	border-radius: 0px !important;
+}
+
+.print-btn-reg{
+	padding: 0px 10px;
+}
+.responsiveTable .dataTables_wrapper{ width: 99% !important;} 
+.btn-danger {
+    background-color: #e56155;
+    border-color: #e56155;
+}
+.borderCustomColor{border-color: #609128 !important;}
+:focus {
+	outline: inherit;
+}
+.settingPosition {
+    position: relative;
+    z-index: 99;
+}
+.heighAuto{min-height: auto;}
+/* scrool_ber csss */
+.height_table_90 {
+	height: 90px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_87 {
+	height: 87px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.height_table_97 {
+	height: 97px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_108 {
+	height: 108px;
+	overflow-x: auto;
+}
+
+.height_table_128 {
+	height: 128px;
+	overflow-x: auto;
+}
+
+.height_table_104 {
+	height: 104px;
+	overflow-x: auto;
+}
+
+.height_table_112 {
+	height: 112px;
+	overflow-x: auto;
+}
+
+.height_table_120 {
+	height: 120px;
+	overflow-x: auto;
+}
+
+.height_table_123 {
+	height: 123px;
+	overflow-x: auto;
+}
+
+.height_tableMin_123 {
+	min-height: 23px;
+	max-height: 123px;
+	overflow-x: auto;
+}
+
+.height_tableMin_120 {
+	min-height: 23px;
+	max-height: 120px;
+	overflow-x: auto;
+}
+
+.height_tableMin_104 {
+	min-height: 23px;
+	max-height: 104px;
+	overflow-x: auto;
+}
+
+.height_table_130 {
+	height: 130px;
+	overflow-x: auto;
+}
+
+.height_table_135 {
+	height: 135px;
+	overflow-x: auto;
+}
+
+.height_table_125 {
+	height: 123px;
+	overflow-x: auto;
+}
+
+.height_table_140 {
+	height: 140px;
+	overflow-x: auto;
+}
+
+.height_table_145 {
+	height: 145px;
+	overflow-x: auto;
+}
+
+.height_table_150 {
+	height: 150px;
+	overflow-x: auto;
+}
+.height_table_155 {
+	height: 155px;
+	overflow-x: auto;
+}
+
+.height_table_144 {
+	max-height: 144px;
+	overflow-y: auto;
+}
+
+.height_table_162 {
+	height: 162px;
+	overflow-x: auto;
+}
+
+.height_table_160 {
+	height: 160px;
+	overflow-x: auto;
+}
+.height_table_174 {
+	height: 174px;
+	overflow-x: auto;
+}
+.height_table_180 {
+	height: 180px;
+	overflow-x: auto;
+}
+
+.height_table_181 {
+	height: 26vh;
+	overflow-x: auto;
+}
+
+.height_table_190 {
+	height: 190px;
+	overflow-x: auto;
+}
+
+.height_table_202 {
+	height: 202px;
+	overflow-x: auto;
+}
+
+.height_table_200 {
+	height: 200px;
+	overflow-x: auto;
+}
+
+.height_table_204 {
+	height: 204px;
+	overflow-x: auto;
+}
+.height_table_211 {
+	height: 211px;
+	overflow-x: auto;
+}
+.height_table_210 {
+	height: 210px;
+	overflow-x: auto;
+}
+.height_table_220 {
+	height: 220px;
+	overflow-x: auto;
+}
+.height_table_235 {
+	height: 235px;
+	overflow-x: auto;
+}
+
+.height_table_244 {
+	height: 244px;
+	overflow-x: auto;
+}
+.height_table_245 {
+	height: 245px;
+	overflow-x: auto;
+}
+.height_table_226 {
+	height: 226px;
+	overflow-x: auto;
+}
+.height_table_246 {
+	height: 246px;
+	overflow-x: auto;
+}
+.height_table_240 {
+	height: 240px;
+	overflow-x: auto;
+}
+.height_table_252 {
+	height: 252px;
+	overflow-x: auto;
+}
+.height_table_270 {
+	height: 270px;
+	overflow-x: auto;
+}
+.height_table_260 {
+	height: 260px;
+	overflow-x: auto;
+}
+.height_table_265 {
+	height: 265px;
+	overflow-x: auto;
+}
+
+.height_table_345 {
+	height: 345px;
+	overflow-x: auto;
+}
+
+.height_table_278 {
+	max-height: 278px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.height_table_276 {
+	height: 276px;
+	overflow-x: auto;
+}
+.height_tableRadio_276{ height: 41.3vh;overflow-x: auto;}
+.height_table_294 {
+	height: 50vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.height_table_291 {
+	height: 291px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.height_table_329 {
+	height: 70vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.height_table_329Display { 
+	height: 57vh;
+	overflow: hidden;
+	
+}
+.height_table_300 {
+	height: 300px;
+	overflow-x: auto;
+}
+.height_table_310 {
+	height: 310px;
+	overflow-x: auto;
+}
+
+.height_table_315 {
+	height: 315px;
+	overflow-x: auto;
+}
+
+.height_table_320 {
+	height: 320px;
+	overflow-x: auto;
+}
+
+.height_table_326 {
+	height: 326px;
+	overflow-x: auto;
+}
+
+.height_table_365 {
+	height: 365px;
+	overflow-x: auto;
+}
+
+.height_table_360 {
+	height: 360px;
+	overflow-x: auto;
+}
+.height_table_368 {
+	height: 368px;
+	overflow-x: auto;
+}
+.height_table_334 {
+	height: 334px;
+	overflow-x: auto;
+}
+.height_tablea_320 {
+	height: 320px;
+	overflow-x: auto;
+}
+.height_table_324 {
+	height: 324px;
+	overflow-x: auto;
+}
+
+.height_tablea_319 {
+	height: 320px;
+	overflow-x: auto;
+}
+
+.height_table_285 {
+	height: 285px;
+	overflow-x: auto;
+}
+
+.height_table_320 {
+	height: 350px;
+	overflow-x: auto;
+}
+
+.height_table_335 {
+	height: 335px;
+	overflow-x: auto;
+}
+.height_table_338 {
+	height: 338px;
+	overflow-x: auto;
+}
+.height_table_344 {
+	height: 344px;
+	overflow-x: auto;
+}
+.height_table_346 {
+	height: 346px;
+	overflow-x: auto;
+}
+.height_table_350 {
+	height: 350px;
+	overflow-x: auto;
+}
+.height_table_354 {
+	height: 354px;
+	overflow-x: auto;
+}
+.height_table_364 {
+	height: 364px;
+	overflow-x: auto;
+}
+.height_table_375 {
+	height: 375px;
+	overflow-x: auto;
+}
+
+.height_table_379 {
+	height: 379px;
+	overflow-x: auto;
+}
+
+.height_table_358 {
+	height: 358px;
+	overflow-x: auto;
+
+}
+
+.height_table_528 {
+	height: 528px;
+	overflow-x: auto;
+
+}
+
+
+
+.height_table_415 {
+	height: 415px;
+	overflow-x: auto;
+
+}
+
+.height_table_382 {
+	height: 382px;
+	overflow-x: auto;
+}
+.height_table_384 {
+	height: 384px;
+	overflow-x: auto;
+}
+.height_table_386 {
+	height: 386px;
+	overflow-x: auto;
+}
+
+.height_table_450 {
+	height: 450px;
+	overflow-x: auto;
+}
+
+.height_table_460 {
+	height: 460px;
+	overflow-x: auto;
+}
+
+.height_table_490 {
+	height: 490px;
+	overflow-x: auto;
+}
+.hei_440 {
+	height: 57.3vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_429 {
+	max-height: 429px;
+	overflow-x: auto;
+}
+.height_table_400 {
+	height: 400px;
+	overflow-x: auto;
+}
+
+.height_table_435 {
+	height: 435px;
+	overflow-x: auto;
+}
+
+.height_table_448 {
+	height: 450px;
+	overflow-x: auto;
+}
+.height_table_600 {
+	height: 600px;
+	overflow-x: auto;
+}
+.height_table_530 {
+	height: 530px;
+	overflow-x: auto;
+}
+
+.height_table_530 {
+	height: 530px;
+	overflow-x: auto;
+}
+
+.height_table_466 {
+	height: 70.5vh;
+	overflow-x: auto;
+}
+
+.height_table_170 {
+	height: 170px;
+	overflow-x: auto;
+}
+
+.height_table_244 {
+	height: 248px;
+	overflow-x: auto;
+}
+
+.hei_570 {
+	height: 76.5vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.hei_553 {
+	height: 67vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_599 {
+	height: 99.7vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_v62 {
+	height: 62vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_508 {
+	height: 82vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_562 {
+	height: 85.5vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_381 {
+	height: 381px;
+	overflow-x: auto;
+}
+
+.height_table_305 {
+	height: 305px;
+	overflow-x: auto;
+}
+
+.height_table_371 {
+	height: 371px;
+	overflow-x: auto;
+}
+
+.height_table_380 {
+	height: 66vh;
+	overflow-x: auto;
+}
+.height_table_337 {
+	height: 54vh;
+	overflow-x: auto;
+}
+.scrool_ber::-webkit-scrollbar {
+	width: 6px;
+	height:11px;
+	background: #000; border-radius: 6px;    box-shadow: 0px 0px 7px #9e9b9b inset !important;
+}
+
+.scrool_ber:scrollbar-thumb {
+	background-color: #32a2f7 !important;box-shadow: 0px 0px 6px #2083ce inset !important;
+	width: 6px;
+	border-radius: 0px;
+	height: 11px !important;border-radius: 6px;
+}
+
+.scrool_ber::-webkit-scrollbar-thumb {
+	background-color: #32a2f7 !important;box-shadow: 0px 0px 6px #2083ce inset !important;
+	border-radius: 0px;
+	width: 6px;
+	height: 11px;border-radius: 6px;
+}
+
+.scrool_ber th {
+	top: -1px;
+	position: sticky;
+	position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+	z-index: 9;
+}
+
+/* ================== */
+.scrool_ber2::-webkit-scrollbar {
+	width: 9px;
+	height:11px;
+	background: #000; border-radius: 6px;    box-shadow: 0px 0px 7px #9e9b9b inset !important;
+}
+
+.scrool_ber2:scrollbar-thumb {
+	background-color: #32a2f7 !important;box-shadow: 0px 0px 6px #2083ce inset !important;
+	width:9px;
+	border-radius: 0px;
+	height: 11px !important;border-radius: 6px;
+}
+
+.scrool_ber2::-webkit-scrollbar-thumb {
+	background-color: #32a2f7 !important;box-shadow: 0px 0px 6px #2083ce inset !important;
+	border-radius: 0px;
+	width:9px;
+	height: 11px;border-radius: 6px;
+}
+
+.scrool_ber2 th {
+	top: -1px;
+	position: sticky;
+	position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+	z-index: 9;
+}
+
+
+
+
+tr.sticky_td td {
+	top: 23px;
+	position: webkit-sticky;
+	padding-left: 0px !important;
+}
+
+.stickytr td {
+	top: 22px;
+	position: sticky;
+	background: #fff;
+}
+
+.stickytr input {
+	background: #fffce6;
+}
+
+.min_height {
+	height: auto !important;
+}
+.stickyNone th{position: initial;}
+/* ngx bootstrap accordion */
+.accordionCustom .card-header {
+	padding: 0px !important;
+	border: solid 1px #b9c6ab;
+	border-radius: 0px !important;
+}
+
+.accordionCustom .panel-title {
+	background: #e8f3dc;
+	color: #FFF;
+}
+
+.accordionCustom .panel-title .btn-link {
+	color: #030303;
+	text-decoration: none;
+}
+
+.accordionCustom .panel-title .btn {
+	padding: 0px 32px;z-index: 9;
+    position: relative;
+}
+
+.accordionCustom accordion-group {
+	position: relative;
+}
+
+.accordionCustom accordion-group:before {
+	content: "+";
+	padding-right: 0px;
+	background: #919f81;
+	width: 27px;
+	height: 25px;
+	font-size: 25px !important;
+	text-align: center;
+	top: 2px;
+	border-right: solid 1px #79846c;
+	color: #fdfdfd;
+	position: absolute;
+	font-size: 10px;
+	line-height: 21px;
+	font-weight: normal;
+	left: 2px;
+	z-index:1;
+}
+
+.accordionCustom .panel-open:before {
+	content: "-";
+}
+.accordionCustomQue accordion{
+	width: 77%;
+    margin: auto;
+}
+.accordionCustomQue accordion-group:before {
+	content: url(../images/searchA.svg);
+	
+}
+
+.accordionCustomQue .panel-open:before {
+	content: url(../images/searchA.svg);
+}
+.accordionCustomVitals .card {
+    border: 1px solid rgb(158, 189, 122);
+
+}
+.accordionCustom .table-bordered {
+    border: 1px solid #dee2e6 !important;
+}
+.accordionCustomQue .table-bordered {
+	/* border: 1px solid #070779  !important; */
+	border: transparent !important;
+}
+.h5SubModule{
+	color: #09756b;
+    padding-left: 9px;
+    font-family: Verdana !important;
+    font-size: 17px;
+    margin-bottom:5px;
+	border: solid 1px #dedede;
+    padding: 4px;
+    border-left: solid 2px #09756b;
+}
+.subModuleArea{border: solid 1px #dedede;
+    width: 98%;
+    margin: 8px auto;}
+.subSpan{   margin-left: 2%;
+    width: 29%;
+    /* float: left; */
+    left: 25px;}
+.subSpan .form-check-label{left:0px;}
+
+.subSpan input{
+	height: 16px;
+    width: 16px;
+    /* display: block; */
+    /* float: left; */
+    position: absolute !important;
+    left: -20px;
+    top: 4px;
+}
+.accordionCustomQue .panel-title {
+	background: url(../images/title.png) repeat;
+	color: #FFF;height: 37px;border-radius: 24px !important;
+	margin-bottom: 10px;
+}
+.accordionCustomQue .card-header{border:0px;}
+.accordionCustomQue accordion-group:before {
+	background: #1d5388;
+    height: 35px;
+    border-right: solid 1px #194571;
+    width: 90px;
+    line-height: 35px;border-radius: 24px 0px 0 24px !important;
+}
+.accordionCustomQue .card {
+	border-radius: 18px;
+    background: #ffffff;
+    border: 0px;
+    margin-top: 8px;
+}
+.accordionCustomQue .panel-title .btn {
+    padding: 6px 65px;    font-family: Verdana;
+    font-size: 16px !important;
+    color: #1d5388;
+}
+.btnAcc {
+	padding: 4px 16px;
+	width: 130px;
+	margin-right: 9px;
+	background: #e8f3dc;
+	top: 7px;
+	position: relative;
+	color: #000;
+	border: 2px solid #b9c6ab;
+	border-radius: 4px 4px 0 0;
+	border-bottom: 2px solid #e8f3dc;
+	z-index: 99;
+}
+
+.btnAcc:hover {
+	color: #000;
+	background: #e8f3dc;
+	border: 2px solid #b9c6ab;
+	border-bottom: 2px solid #e8f3dc;
+}
+
+.btnAcc.btn-info:not(:disabled ):not(.disabled ):active {
+	color: #fff;
+	background-color: #e8f3dc;
+	border-color: #b9c6ab;
+	border-bottom: 2px solid #e8f3dc;
+}
+
+
+/* security/setup/user */
+#user_grant_department .panel-title {
+	background: #bae886;
+}
+
+/* radiology result entry */
+.resultEntryTab .nav-tabs li a {
+	padding: 6px 10px !important;
+}
+
+.invoiceDetails2 .form-control {
+	border: 1px solid #51a7b6 !important;
+}
+
+.pendingPrintedReport .nav-tabs li a {
+	padding: 6px 5px !important;
+}
+/*end  radiology result entry */
+.investigation_areaHomeCmh {
+	background: linear-gradient(to bottom, #ffffff 4%, #f4fafb 41%, #dbeeef 100%)
+		!important;
+}
+
+/* prescription hone for CMH */
+.continueMedicineArea {
+	width: auto;
+	float: left;
+	margin-left: 31%;
+	position: absolute;
+	z-index: 99;
+	top: 12px;
+}
+
+.continueMedicineArea p {
+	width: 478px;
+    height: 26px;
+    overflow-x: auto;
+    background: #c5ddaa;
+    padding-left: 8px;
+}
+
+.tableWidth {
+	width: 100%;
+	float: right;
+	/* margin-left: -4px; */
+}
+
+table.searchAll {
+	margin-top: 7px;
+}
+
+.searchAll p {
+	margin-bottom: 2px;
+}
+
+.chiefBlock .searchAll label {
+	float: left;
+}
+
+.chiefBlock .searchAll p {
+	float: left;
+	margin-left: 6px;
+	width: 78%;
+}
+
+.chiefBlock .tableWidth {
+	width: 78.5%;
+	float: right;
+}
+
+.chiefBlock3 .searchAll p {
+	width: 69%;
+}
+
+.ProvisonalDiagnosis p {
+	width: 91%;
+}
+
+.diseaseFev .feveArea .dropdown-menu.show {
+	right: 0px;
+}
+
+.adviceBlock .tableWidth {
+	width: 78%;
+	float: left;
+	margin-left: 10.5%;
+}
+
+.page-wrapper .chiefBlock3 .tableWidth {
+	width: 69%;
+	float: left;
+	margin-left: 18.8%;
+}
+
+.page-wrapper.toggled .chiefBlock3 .tableWidth {
+	margin-left: 21.8%;
+}
+
+.allprescriptionBlock-Row th {
+	position: static !important;
+}
+
+.typeAhead typeahead-container.dropdown.open.dropdown-menu {
+	width: 82%;
+}
+.typeAhead2 typeahead-container.dropdown.open.dropdown-menu {
+	width: 85%;
+}
+.protocolInput .typeAhead .ng-select .ng-select-container {
+    background-color: none!important;
+    border-radius: 16px!important;
+	 border: 0px !important;
+	 min-width: 23px!important;
+	 top: -2px!important;
+ 
+}
+
+.discharge-admission .typeAhead typeahead-container.dropdown.open.dropdown-menu {
+	width: auto !important;
+}
+
+.chiefBlock .typeAhead typeahead-container.dropdown.open.dropdown-menu {
+	width: 72% !important;
+}
+
+.pastIllness .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 90%;
+}
+
+.investigationFinding .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 95%;
+}
+
+.chiefBlock3 .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 65%;
+}
+
+.ProvisonalDiagnosis .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 95%;
+}
+
+.searchAll th {
+	font-size: 13px !important;
+	background: transparent !important;
+}
+
+.searchAll input {
+	border-radius: 4px;
+}
+
+.allprescriptionBlock-Row {
+	margin-bottom: 4px;
+	width: 100%;
+	float: left;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.homeThreeDctor .allprescriptionBlock-Row {
+	margin-bottom: 10px;
+}
+
+.medicationTitle .labelMedi {
+	font-size: 13.4px;
+	font-weight: bold;
+}
+
+.add_title {
+	float: inherit !important;
+	width: 100% !important;
+	margin-left: 0px !important;
+}
+
+.check_input1 {
+	width: 19px !important;
+	margin: auto;
+	display: table;
+}
+
+input.check2 {
+	width: 19px !important;
+	height: 19px !important;
+	left: 5px;
+	position: relative;
+}
+
+.medicationTitle th {
+	font-size: 13px;
+}
+
+tr.sticky2 th {
+	top: 23px !important;
+	position: sticky;
+}
+tr.sticky3 th {
+	top: 41px !important;
+	position: sticky;
+}
+.medicationTitle table {
+	background: #fff;
+}
+
+.footerAreaHome {
+	width: 98%;
+	float: left;
+	border: 1px solid #75b6bb;
+	margin: 4px auto;
+	border-radius: 4px;
+	padding: 5px;
+	background: #d9eced;
+	padding-left: 0px;
+	margin-left: 1%;
+}
+
+.footerAreaHome3 {
+	margin-top: 4%
+}
+
+.HomePannel_left2 {
+	height: 50vh !important;
+}
+
+.footerAreaHome button {
+	width: 110px !important;
+	line-height: 12px !important;
+	border-radius: 0px;
+	height: 30px !important;
+	font-size: 16px !important;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.allprescriptionBlock th {
+	color: #000 !important;
+}
+
+.medicingTh th {
+	background: #e1f2f5;
+	color: #017080;
+	font-size: 14px;
+}
+
+.medicingTh td {
+	font-size: 15px;
+}
+/* end prescription hone for CMH */
+
+/* ng-select-height-auto */
+.ng-select-height-auto .ng-select.ng-select-single .ng-select-container .ng-value-container{
+	white-space: inherit;
+}
+.ng-select-height-auto .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value{
+	white-space: inherit;
+}
+.ng-select-height-auto .ng-select.ng-select-single .ng-select-container {
+    height: auto !important;
+}
+
+.ng-select-height-auto .ng-select .ng-select-container {
+	border: 1px solid #51a7b6 !important;border-radius: 0px;
+}
+
+.ng-select-height-auto .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	color: #40464a;
+	font-weight: bold;
+}
+
+/* .ng-select-height-auto .ng-select.ng-select-single .ng-select-container {
+	height:28px;
+} */
+
+.ng-select-height-auto .ng-select .ng-select-container {
+	min-height: 28px;
+}
+.ng-select-height-auto .ng-input input{
+	border: 0px !important;
+}
+/* ng select custom border style */
+.radiologyExamList .ng-select .ng-select-container {
+	border: 1px solid #51a7b6 !important;
+}
+
+.radiologyExamList .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	color: #40464a;
+	font-weight: bold;
+}
+
+.radiologyExamList .ng-select.ng-select-single .ng-select-container {
+	height: 30px;
+}
+
+.radiologyExamList .ng-select .ng-select-container {
+	min-height: 30px;
+}
+/* radiology left-sidebar */
+#left-sidebar .ng-select.ng-select-single .ng-select-container .ng-value-container{
+	white-space: inherit;
+}
+#left-sidebar .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value{
+	white-space: inherit;
+}
+#left-sidebar .radiologyExamList .ng-select.ng-select-single .ng-select-container {
+    height: auto !important;
+}
+/* bootstap custom */
+.textareaCustom {
+	height: 100px !important;
+}
+
+.emergencyH5 {
+	width: 100%;
+	line-height: 33px;
+}
+.emergencySearchbtn {
+    float: right;
+    padding: 2px 11px;
+    border: solid 1px #fff;
+    box-shadow: 0px 1px 4px #2d3a6b;
+    top: 2pz;
+    top: 3px;
+    position: relative;
+    margin-right: 1%;
+}
+/* multistep form progess bar */
+/*progressbar*/
+/* #progressbar {
+	margin-bottom: 0px;
+	width: 56%;
+	overflow: hidden;
+	counter-reset: step;
+	position: relative;
+	top: 6px;
+	z-index: 9;
+	text-align: center;
+	float: right;
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: #666;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 9%;
+	float: left;
+	position: relative;
+	letter-spacing: 1px;
+}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 24px;
+	height: 24px;
+	line-height: 22px;
+	display: block;
+	font-size: 12px;
+	color: #637de3;
+	background: #3b4a82;
+	border-radius: 25px;
+	margin: 0 auto 10px auto;
+	border: solid 1px #596bad;
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #3b4a82;
+	position: absolute;
+	left: -50%;
+	top: 11px;
+	z-index: -1;
+}
+
+#progressbar li:first-child:after {
+	content: none;
+} */
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+	background: #677cc8;
+	color: white;
+	border: solid 1px #8ea7ff;
+}
+
+.pastIllness3 .typeAhead {
+	width: 90%;
+}
+/* typeAheadBorder */
+.typeAheadBorder .ng-select .ng-select-container {
+    border: 1px solid #6bb5d2;
+   
+}
+/* end typeAheadBorder */
+
+/* typahead all css */
+.typeAhead .ng-select .ng-select-container {
+	min-height: 28px;
+}
+
+.typeAhead .ng-select.ng-select-single .ng-select-container {
+	height: 28px;
+}
+
+.typeAhead .ng-select .ng-select-container {
+	border: solid 1px #68bee0;
+}
+
+.typeAhead .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 4px;
+}
+
+.typeAhead .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+
+/* typahead nurse station service all css */
+.typeAheadNurser .ng-select .ng-select-container {
+	min-height: 30px;
+}
+
+.typeAheadNurser .ng-select.ng-select-single .ng-select-container {
+	height: 30px;
+}
+
+.typeAheadNurser .ng-select .ng-select-container {
+	border: solid 1px #68bee0;     border-radius: 0px 30px 30px 0px;
+}
+
+.typeAheadNurser .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 4px;
+}
+
+.typeAheadNurser .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+
+/* typeahead-height-width */
+.typeahead-height-width .ng-select {
+    width: 70%;
+}
+.typeahead-height-width .ng-select.ng-select-single .ng-select-container {
+    height: 27px;min-height: 27px;
+}
+/*ipd doc info */
+.docInfo .typeAheadRegistration .ng-select.ng-select-single .ng-select-container {
+    top: 0px !important;
+    min-height: 15px !important;
+    height: 15px!important;
+    border-radius: 15px!important;
+}
+.docInfo .typeAheadRegistration .ng-select .ng-select-container .ng-value-container .ng-placeholder {
+    line-height: 18px !important;
+    height: 16px !important;
+}
+.docInfo .typeAheadRegistration .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input {
+    top: 0px!important;
+    
+}
+.typeAheadMedica .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input {
+    top: 0px!important;
+    
+}
+
+/* typahead registration css */
+/* oncology */
+.oncologyType .typeAheadRegistration .ng-select.ng-select-single .ng-select-container {
+	top: 0px!important;
+	
+}
+.currentProtocol .typeAheadRegistration .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    padding-top: 0px!important;
+}
+
+.patientTratment .typeAheadRegistration .ng-select.ng-select-single .ng-select-container {
+	border: 1px solid #6bb5d2!important;
+	border-radius: 6px;
+}
+
+.patientTratment .typeAheadRegistration .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    padding-top: 0px!important;
+}
+
+.typeAheadRegistration .ng-select .ng-select-container {
+	min-height: 24px;
+}
+
+.typeAheadRegistration .ng-select.ng-select-single .ng-select-container {
+	top: -2px;
+	min-height: 24px;height: 24px;
+	border-radius: 15px;
+}
+
+.typeAheadRegistration .ng-select .ng-select-container {
+	border: 0px; background: transparent;
+}
+.ng-select .ng-select-container:hover{ box-shadow: none !important;}
+.typeAheadRegistration .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 23px;
+	padding-top: 9px;
+}
+
+.typeAheadRegistration .ng-select .ng-select-container .ng-value-container .ng-placeholder{
+	font-size: 15px; color:#4e4e4e;
+}
+.typeAheadRegistration .ng-select .ng-clear-wrapper{ top:6px;}
+.typeAheadRegistration .ng-select .ng-arrow-wrapper{ top:2px;}
+.typeAheadRegistration .ng-select .ng-select-container .ng-value-container .ng-placeholder {
+	line-height: 32px;
+    height: 30px;
+}
+
+/* type Wise Discount css */
+.discount-type .ng-select .ng-select-container {
+	min-height: 30px;    top: -7px;
+    position: relative;
+}
+
+.discount-type .ng-select.ng-select-single .ng-select-container {
+	height: 30px;
+}
+
+.discount-type .ng-select .ng-select-container {
+	border: solid 1px transparent;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.discount-type .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 4px;
+}
+
+.discount-type .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+
+
+
+
+
+/* type Exam Setup css */
+.ExamSetup-type .ng-select .ng-select-container {
+	min-height: 26px;    top: -3px;
+	position: relative;
+	
+	border: 0px; background: transparent;
+}
+
+.ExamSetup-type .ng-select.ng-select-single .ng-select-container {
+	height: 26px;
+}
+
+.ExamSetup-type .ng-select .ng-select-container {
+	border: solid 1px transparent;
+    border-radius: 0px;
+    background: transparent;
+}
+.tableTh .form-control{
+    background-color: #f3f3f3;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.ExamSetup-type .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 4px;
+}
+
+.ExamSetup-type .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+.ExamSetup-type .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input {
+    position: absolute;
+    left: 0;
+	width: 100%;
+	top: 0px;
+}
+.ExamSetup-type .ng-select.ng-select-opened>.ng-select-container {
+	border: 0px;
+    background: transparent;
+}
+
+.ExamSetup-type .ng-select.ng-select-focused:not(.ng-select-opened)>.ng-select-container {
+  border: 0px;
+  border-top: none;
+}
+/*==========typeAhead dayCare===========*/
+.dayCare .ng-select .ng-select-container {
+	min-height: 27px;
+	border: transparent;
+}
+
+.dayCare .ng-select.ng-select-single .ng-select-container {
+	height: 27px;
+}
+
+.dayCare .ng-select .ng-select-container {
+	 border: solid 1px #68bee0; 
+	border-radius: 0px 5px 5px 0px;
+}
+
+.dayCare .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 10px;
+}
+
+.dayCare .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+.dayCare .ng-select .ng-clear-wrapper {
+    top: 7px;
+}
+
+
+/*==========typeAhead bg border none===========*/
+.typeAheadAllNone .ng-select .ng-select-container {
+	min-height: 27px;
+	border: transparent !important;
+}
+
+.typeAheadAllNone .ng-select.ng-select-single .ng-select-container {
+	height: 27px;
+}
+
+.typeAheadAllNone .ng-select .ng-select-container {
+	border: solid 1px transparent !important;
+	border-radius: 0px;
+}
+
+.typeAheadAllNone .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 10px;
+}
+
+.typeAheadAllNone .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+.typeAheadAllNone .ng-select .ng-clear-wrapper {
+    top: 7px;
+}
+.top_section_all table .typeAheadAllNone input{
+	border: solid 1px transparent !important;
+}
+
+.padding-left-right-typeahead .dropdown-item{
+padding-left: 4px;padding-right: 4px;
+}
+.padding-left-right-typeahead .dropdown-menu{
+padding:0px !important;
+	}
+/* .dayCare .ng-select.ng-select-opened>.ng-select-container {
+    background: #fff;
+    
+    border: transparent !important;
+} */
+
+.typeahead-booking .dropdown-item{
+	padding-left: 2px; padding-right: 2px;
+}
+.typeahead-booking typeahead-container.dropdown.open.dropdown-menu {
+	width: auto !important; margin: 0px; padding-top: 0px;
+}
+
+
+/* end typeAheadNurser */
+
+/* typeahead-container-auto */
+.typeahead-container-auto typeahead-container.dropdown.open.dropdown-menu {
+	width: auto !important; margin: 0px; padding-top: 0px;
+}
+
+.typeahead-container-auto .dropdown-item{
+	padding-left: 0px; padding-right: 0px;
+}
+
+.typeahead-container-full typeahead-container.dropdown.open.dropdown-menu {
+	 margin: 0px; padding-top: 0px;
+}
+.typeahead-container-full typeahead-container {
+	left: 0px !important;
+}
+
+.typeahead-container-full .dropdown-item{
+	padding-left: 0px; padding-right: 0px;
+}
+.typeahead-container-full typeahead-container.dropdown.open.dropdown-menu button th {
+    padding: 0px 0px 0px 6px!important;
+}
+.typeahead-container-full typeahead-container.dropdown.open.dropdown-menu button td {
+    padding: 0px 0px 0px 6px!important;
+}
+
+/* typeahead-boxhighlight */
+.typeahead-boxhighlight typeahead-container {
+    border: solid 4px #afd6f5;
+    box-shadow: 0px 1px 7px #000;
+}
+.typeahead-boxhighlight typeahead-container .dropdown-item{
+	padding: 0;
+}
+.typeahead-boxhighlight typeahead-container .dropdown-item:hover table td {
+    color: #fff !important;
+}
+.medicationSearch typeahead-container.dropdown.open.dropdown-menu {
+    /* width: 296%; */
+	height: 223px!important;
+	overflow: auto;
+}
+.tableConsul2 .form-control {
+	height: 30px !important;
+}
+
+.tableConsul2 td {
+	font-size: 14px;
+}
+
+.addUserDepartment .ng-select.ng-select-single .ng-select-container {
+   border-radius: 25px;
+}
+.addUserDepartment .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    font-size: 15px;
+}
+.page-wrapper.toggled .page-content .dayNmae label{
+	padding: 2px 8px !important;
+}
+.page-wrapper .dayNmae label {
+	padding: 2px 15.8px !important;
+	font-size: 15px;
+}
+
+
+/* emergency type ahead css */
+.quickDiv3 typeahead-container.dropdown.open.dropdown-menu {
+	width:auto !important;
+	max-width:auto !important;
+}
+
+.quickDiv3 typeahead-container.dropdown.open.dropdown-menu h4 {
+	font-size: 20px;
+}
+.quickdisposalSelect .ng-select {
+	width: 40%;font-size: 15px;
+}
+.quickdisposalSelectUdu .ng-select {
+	width: 58%;
+}
+.quickdisposalSelectObs .ng-select {
+	width:72%;
+}
+.qickDisposalRtu  .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    width: 112px;
+}
+.quickdisposalSelect .ng-dropdown-panel.ng-select-bottom{font-size: 15px;}
+.quickdisposalSelect .ng-select .ng-select-container {
+    border: 1px solid #6bb5d2;
+    min-height: 30px;height: 30px !important;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.ng-select-custom-round .ng-select {
+	width: 80%;font-size: 15px;
+}
+
+.ng-select-custom-round .ng-dropdown-panel.ng-select-bottom{font-size: 15px;}
+.ng-select-custom-round .ng-select .ng-select-container {
+    border: 1px solid #6bb5d2;
+    min-height: 30px;height: 30px !important;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+/* ckeditor for radiology result entry */
+
+.middlePart .tox-tinymce{ height: 87.2vh !important;}
+
+/* quick registration style */
+.quickReistration .tab-content {
+	border-radius: 6px;    
+}
+.quickReistration ul.nav.nav-tabs {
+	border: 0px !important;
+    border-bottom: 1px solid #609128 !important;
+    border-radius: 6px 6px 0 0;
+
+}
+.quickReistration .dotedicon{top:8px !important;}
+.quickReistration .nav-tabs{display: none;}
+.displayBlockRe{display: block !important;}
+.qickRegA{width: 168px;}
+
+app-cham-patient-list{margin-top: -26px;}
+/*========== registration-modal ==========*/
+app-registration-modal {
+   margin-top: -26px;
+}
+app-business-list{  margin-top: -26px;}
+app-patient-list-doc-staion{ margin-top: -26px;}
+app-registration-modal input.form-control{ height: 27px !important;}
+ .titleGlobalregis {
+	background: #609128 !important; z-index: 9;
+}
+textarea.globalRtexarea{height: 120px !important;}
+/* ======================imgCapRadiology======================= */
+.imgCapRadiology table td{white-space: nowrap;}
+/*========== app-dmfr-modal ==========*/
+app-dmfr-modal {
+	margin-top: -26px;
+}
+
+/* Tab Multi Step */
+.tabMultiStep .tab-content {
+    border: 0px;
+    margin-top: 10px;
+}
+.tabMultiStep .nav-tabs{border-bottom: 0px !important;    position: relative;
+    width: 574px;
+    margin: auto; padding-left: 2%;
+   }
+  .tabMultiStep .nav{
+	min-height: 27px;
+  }
+.tabMultiStep .nav-tabs .nav-link {
+	width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    background: #d1e7b9;
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 32px;
+    padding: 0px;
+    position: relative;
+    border: dashed 1px #76aa39;
+}
+.tabMultiStep .nav-tabs .nav-item {
+	width: 60px;
+    position: relative;
+    z-index: 9;
+}
+ .tabMultiStep .nav-tabs .nav-link.active {
+	border: dashed 1px #eaefe4 !important;
+	background: #76aa39 !important;
+}
+ .tabMultiStep .nav-tabs .nav-link.active {
+    color: #fff !important;
+}
+.tabMultiStep ul.nav.nav-tabs:after {
+    content: '';
+    display: block;
+    width: 71%;
+    border: aliceblue;
+    position: absolute;
+    top: 16px; border: dashed .7px  #76aa39;
+}
+.tabMultiStep-assessment ul.nav.nav-tabs:after {
+    width: 84% !important;
+}
+.footerMultistep{
+	border: solid 1px #76aa39;
+    background: #fff;
+    padding: 4px;
+    border-radius: 6px; width: 99%; margin: auto;
+}
+/* emergency tab */
+
+.tabMultiStep .nav-tabs .nav-link {
+    width: 28px;
+    height: 28px;
+    border-radius: 40px;
+    background: #d1e7b9;
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 28px;
+    padding: 0px;
+    position: relative;
+    border: dashed 1px #76aa39;
+}
+.emergencyTab{position: relative;}
+.emergencyTab .tab-content {
+ border: solid 1px #dedede;
+ margin-top: 0px;
+}
+.emergencyTab .nav-tabs {
+    width: 600px;
+    position: absolute;
+    top: 21px;
+    z-index: 99;
+    left: 28%;
+}
+ .emergencyTab .nav-tabs .nav-link.active {
+    border: dashed 1px #adbdf9 !important;
+    background: #677cc8 !important;
+    border-radius:40px !important;
+}
+.emergencyTab .nav-tabs .nav-link {
+   
+    background: #2c3a6f;
+    font-size: 14px !important;
+    line-height: 26px;
+    border: dashed 1px #5566a7;
+    color: #637de0 !important;
+}
+.emergencyTab ul.nav.nav-tabs:after {
+    border: dashed .7px #4884bf;
+}
+.emergencyTab .nav-tabs .nav-item {
+    width: 50px;
+}
+.allTabSet .btn {
+	padding: 7px 7px;
+    font-size: 15px !important;
+    /* border-right: solid 1px #007bff !important; */
+    /* border-color: #065cb9 !important; */
+    font-family: roboto;
+    /* box-shadow: 0px 0px 1px #3997fb; */
+    margin-right: 4px;
+  
+}
+
+.allTabSet .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #0054af;
+  
+}
+  .allTabSet{
+	margin: 3px auto;
+    display: table;
+  }
+  .emergencyTab .all_content_wrapper{ min-height: auto; padding-bottom: 1px !important;}
+  .flexColumNone{ flex-direction: inherit;width: auto;
+	float: right;}
+	.flexColumNone button {
+		margin-right: 2px;
+		padding: 3px 18px;
+	}
+
+	/* nurse station css time and date */
+	.bs-timepicker-field {
+		width: 40px !important;
+		padding: 0px;border: solid 1px #7cbad2;
+	}
+	.startIntake button.btn.btn-default.text-center {
+		left: -16px;
+		position: relative;
+	}
+	.tableLeftIntake table {
+		left: 10px;
+		position: relative;
+	}
+
+/*----quick review and disposal----*/
+.reportingTime table td {
+	padding: 0px !important;
+	padding: 0px !important;
+	border: 0px;
+	margin-bottom: 0px !important;
+}
+
+.reportingTime table td .btn {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.reportingTime .bs-chevron {
+    width: 7px;
+    height: 7px;
+    border-width: 2px 0px 0 2px;
+}
+.reportingTime table {
+	width: 155px !important;
+	margin: auto;
+	left: 15px;
+	position: relative;
+}
+.reportingTime .form-control{
+    height: 21px !important;
+}
+.reportingTime td {
+    font-size: 6px !important;
+}
+
+.asset-titme table{
+	left: -8px;
+}
+.asset-titme button.btn.btn-default.text-center {
+    left: -18px;
+    position: relative;font-size: 13px !important;
+}
+
+/* HR REPORTING TIME */
+.reportingTimeHr table td {
+	padding: 0px !important;
+	padding: 0px !important;
+	border: 0px;
+	margin-bottom: 0px !important;
+}
+
+.reportingTimeHr table td .btn {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.reportingTimeHr .bs-chevron {
+    width: 7px;
+    height: 7px;
+    border-width: 2px 0px 0 2px;
+}
+.reportingTimeHr table {
+	width: 155px !important;
+	margin: auto;
+	left: 3px;
+	position: relative;
+}
+.reportingTimeHr .form-control{
+    height: 21px !important;
+}
+.reportingTimeHr td {
+    font-size: 6px !important;
+}
+.attendTime table {
+    left: 1px !important;
+}
+
+.anesTime .bs-chevron {
+	display: none !important;
+	}
+/* ==============================cheeckAll============================== */
+
+/* .cheeck box squaredThree */
+.cheeckAll {
+	position: relative;
+	float: left;
+}
+
+.cheeckAll label {
+	width: 15px;
+	height: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ffffff;
+	/* border-radius: 4px; */
+	border: solid 1px #000;
+}
+
+.cheeckAll label:after {
+	content: '';
+	width: 10px;
+	height: 6px;
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	border: 3px solid #141512;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.cheeckAll label:hover::after {
+	opacity: 0.3;
+}
+
+.cheeckAll input[type=checkbox] {
+	visibility: hidden;
+}
+
+.cheeckAll input[type=checkbox]:checked+label:after {
+	opacity: 1;
+}
+/* end .squaredThree */
+.label-text {
+	position: relative;
+	left: 10px;
+	white-space: nowrap;
+}
+
+.spanCheckText {
+	position: relative;
+	left: 18px;
+	white-space: nowrap;
+}
+
+/* 2 */
+.allCheck {
+	position: relative;
+	float: left;
+}
+
+.allCheck label {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ff8080;
+	/* border-radius: 4px; */
+	border: solid 1px #000;
+}
+
+.allCheck label:after {
+	content: '';
+	width: 10px;
+	height: 6px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	border: 3px solid #fff;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.allCheck label:hover::after {
+	opacity: 0.3;
+}
+
+.warningCheck input[type=checkbox] {
+	visibility: hidden;
+}
+
+.allCheck input[type=checkbox]:checked+label:after {
+	opacity: 1;
+}
+
+.spanCheckText2 {
+	white-space: nowrap;
+	position: relative;
+	left: 6px;
+}
+
+/* bussiness ui css */
+.tabMinHeight .tab-content{min-height: 59vh;}
+.tabMinHeight2 .tab-content{min-height:71vh;}
+/*end bussiness ui css */
+
+
+/* HR PAYROLL */
+.employeeTab .nav-tabs{ padding-top: 20px !important;}
+.modalBodyT .nav-link {
+    padding: 3px 10px !important;
+}
+.modalBodyT .tabAreaVertical li.nav-item a.active:after {
+    border-top: solid 17px #fff !important;
+}
+.modalBodyT .tabAreaVertical .nav-tabs {
+	height: auto !important;
+}
+.modalBodyT .nav-tabs li a{
+	font-size: 14px !important;
+}
+.modalBodyT{padding-block-end: 1px !important;}
+.minHeight{    
+	min-height: 545px;
+	margin-bottom: 16px;border-radius: 0px;
+}
+
+.empBtnSave{
+	padding: 4px 37px;
+    border-radius: 33px;
+    border: solid 2px #fff;
+    box-shadow: 0px 0px 2px #464646; min-width: 106px;
+}
+
+/* patient portal */
+.report-btn-portal {
+    padding: 0px 9px;
+    background: linear-gradient(135deg, #24d6ad 0, #26522d 100%) !important;
+    border: solid 2px;
+    border-radius: 11px;
+    box-shadow: 0px 0px 1px #000;
+}
+.report-btn-portal:hover{
+	border-color: #fff !important;
+}
+.status-span{
+	color: #05ae2b !important;
+    font-size: 14px;
+    /* font-weight: bold; */
+    /* text-shadow: 0px 2px 0px #fff; */
+    border: solid 2px #ffffff;
+    padding: 3px 4px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 1px #000;
+    background: #fff;
+}
+
+.pending-status-patient {
+    color: #e9af00 !important;
+}
+/* end patient portal */
+
+
+/* start onoffswitch */
+.onoffswitch {
+	position: absolute; width:88px;
+	z-index: 9;
+    right: 104px;
+    top: 8px;
+    -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select: none;
+  margin:0 auto;
+}
+.onoffswitch .onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 25px; padding: 0; line-height:25px;
+    font-size: 13px; color: white; font-family: Trebuchet, Arial, sans-serif;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "IPD";
+    padding-left: 16px;
+    border: solid 1px #08494e;
+    border-radius: 48px;
+    background-image: linear-gradient(135deg, #17a2b8 0, #083e3d 100%);
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OPD";
+    padding-right:21px;
+	border: solid 1px #415a23;
+    border-radius: 48px;
+    background-image: linear-gradient(135deg, #71994b 0, #263a0e 100%); color: #FFFFFF;
+    text-align: right;
+}
+
+/* advice English bangla*/
+.onoffswitch-inner2:before {
+    content: "English";
+    
+}
+.onoffswitch-inner2:after {
+    content: "Bangla";
+  
+}
+
+/* treegrid open close */
+table.tree-grid-table tbody td{
+	padding: 5px !important; 
+}
+.tree-open {
+	display: block;
+    width:18px;
+    height: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    border: solid 1px #0f80bb;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#71b9f3 0,#0577ab 100%);
+	/* box-shadow: 0px 2px 1px #bfbdbd inset; */
+
+}
+.tree-close{
+    display: block;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    border: solid 1px #e0e0e0;
+    line-height: 11px;
+    cursor: pointer;
+    border-radius: 40px;
+	background: linear-gradient(135deg,#ef8780 0,#9a1107 100%);
+	/* box-shadow:0px 2px 1px #bfbdbd inset; */
+}
+/* discharge-tab */
+.discharge-tab .tab-content {
+    min-height:300px;
+}
+.discharge-tab .nav-tabs li a {
+	padding: 4px 4px !important;
+    font-size: 14px !important;
+}
+.dis-cer-type .ng-select.ng-select-single .ng-select-container{
+	border: solid 1px #9cc9d6 !important;
+}
+
+/* discharge TinyMce Settings */
+.editorDischarge .tox-menubar{
+	background-image: linear-gradient(135deg, #788668 0, #3c5024 100%) !important;
+}
+.editorDischarge2 .tox-tinymce{
+	border-radius: 6px 6px 0px 0px;
+	border: solid 1px #dedede;
+	padding: 2px;
+}
+.editorDischarge2 .tox .tox-mbtn:hover:not(:disabled) {
+	background: #39521d;
+}
+.editorDischarge2 .tox-menubar{
+	border-radius:6px 6px 0px 0px;
+}
+.editorDischarge2-addi .tox-tinymce{
+	border-radius:0px;
+	border: solid 1px #879477;
+	padding: 2px;
+}
+.editorDischarge .tox .tox-mbtn{
+	color: #fff !important;
+}
+
+.editorDischarge .tox .tox-mbtn--active {
+	background: #344b19 !important;
+}
+.editorDischarge .tox .tox-mbtn:focus:not(:disabled) {
+	background: #344b19 !important;
+}
+
+.editorDischarge .tox .tox-mbtn {
+	height: 26px;
+}
+.editorDischarge .tox .tox-toolbar__group {
+    padding: 0 1px;
+}
+.editorDischarge .tox .tox-tbtn {
+    height: 33px;
+    margin: 1px 0 0px 0;
+}
+
+
+
+/*===========editorDischarge3===============*/
+.editorDischarge3 .tox-tinymce{
+	border-radius: 6px 6px 0px 0px;
+	border: solid 1px #dedede;
+	padding: 2px;
+}
+.editorDischarge3 .tox .tox-mbtn:hover:not(:disabled) {
+	background: #d0e8ec;
+}
+.editorDischarge3 .tox-menubar{
+	border-radius:6px 6px 0px 0px;
+}
+
+.editorDischarge3 .tox .tox-mbtn {
+    color: #024e65 !important;
+}
+
+.editorDischarge3 .tox-menubar {
+    background: #d0e8ec !important;
+}
+.editorDischarge3 .tox .tox-mbtn__select-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+.editorDischarge3 .tox .tox-mbtn:focus:not(:disabled) {
+    background: #bad5da !important;
+}
+.editorDischarge3 .tox .tox-mbtn--active {
+    background: #bad5da !important;
+}
+
+
+
+.store-Trans .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-marked {
+    background-color: #4684ce !important;
+    color: #fff
+}
+
+.store-Trans .ng-dropdown-panel .ng-dropdown-panel-items {
+    min-height: 250px;
+ 
+}
+
+.pharPurchase  .ng-dropdown-panel {
+	left: -79px !important;
+    min-width: 245px! important;
+}
+
+.tab-float .tab-content {
+	float: left;width: 100%;
+}
+.tab-padding-less .nav-tabs li a {
+	padding: 6px 5px !important; 
+}
+
+
+.accordionCustom-pres .panel-title {
+    background: #d0e8ec !important;
+}
+
+/* hr-employee-tab */
+.hr-employee-tab .nav-tabs li a {
+	padding: 6px 2px !important; 
+}
+
+
+/* ---------------------toggle-switch-all -------------
+-----------------------------------*/
+.toggle-switch-all input {
+	position: absolute;
+	margin-left: -99em;
+	opacity: 0;
+  }
+  .toggle-switch-all input + label {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	user-select: none;
+	padding: 5px;
+	width: 150px;
+	height: 29px;
+	border-radius: 40px;
+  }
+  .toggle-switch-all input + label:before,
+  .toggle-switch-all input + label:after {
+	display: block;
+	position: absolute;
+	content: "";
+  }
+  .toggle-switch-all input + label:before {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0 5px;
+	background: linear-gradient(135deg,#17a2b8 0,#083e3d 100%);
+    border: 1px solid #08494e;
+	border-radius: 40px;
+	transition: background 0.4s;
+	content: attr(data-off);
+	line-height: 28px;
+	text-align: right;
+	color: #ffffff;font-size: 13.5px;font-family: Verdana !important;word-spacing: -1px;
+  }
+  .toggle-switch-all input + label:after {
+	top: 3px;
+	left: 3px;
+	height: 23px;
+	width:23px;
+	background: #0ea4bb;
+    border: 2px solid #cafdf8;
+	box-shadow: 1px 0 2px #000 inset;
+	border-radius: 40px;
+	transition: margin 0.4s;
+  }
+  .toggle-switch-all input:checked + label:before {
+	content: attr(data-on);
+	text-align: left;
+	color: #ffffff;
+	background: linear-gradient(135deg,#71994b 0,#263a0e 100%);border: 1px solid #415a23;
+  }
+  .toggle-switch-all input:checked + label:after {
+	margin-left: 121px;
+    background: #519806;
+    border: 2px solid #d3f1b2;
+  }
+
+.currentProtocol .typeAheadRegistration .ng-select .ng-arrow-wrapper {
+    display: none !important;
+}
+/* loading-icon-all */
+.loading-icon-all{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+	font-size: 14px;
+	z-index:9;
+}
+.loading-icon{
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation: fa-spin 2s infinite linear;
+}
+
+/* .disply-none-icon i{
+    display: none !important;
+}
+.hover-tr tr:hover .disply-none-icon i{
+    display: block !important;
+} */
+
+
+.expDate-color{
+    color: #fff!important;
+    background: #d05454 !important;
+}
+.tree-color-table{
+	color: #026886;
+}
+.tree-color-table-bold{
+	color: #026886; font-weight: bold;
+}
+tr.tree-color-table-bold td {
+    background: #eff5f7;
+}
+.tree-btn-plus{
+	width: 18px;
+    height: 18px;
+    line-height: 2px;
+    border-radius: 100px;
+    margin: 4px !important;
+    padding: 0px !important;
+    font-size: 17px !important;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+	background: #098fcc;
+    border: solid 2px #fff;
+    box-shadow: 0px 0px 1px #000;
+}
+.tree-btn-plus:before {
+    display: block;
+    content: '+';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+}
+.tree-btn-minus{
+	width: 18px;
+    height: 18px;
+    line-height: 2px;
+    border-radius: 100px;
+    margin: 4px !important;
+    padding: 0px !important;
+    font-size: 17px !important;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+	background: #e2463b;
+    border: solid 2px #fff;
+    box-shadow: 0px 0px 1px #000;
+}
+.tree-btn-minus:before {
+	display: block;
+    content: '-';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 18px;
+    line-height: 0px;
+    top: 5px;
+}
+  .tree-tr-block {
+	display: none;
+  }
+  
+  
+  .show-tree-tr-block {
+	display: table-row;
+  }
+
+  /* form-control-bg-none */
+  .form-control-bg-none .form-control{
+	background: transparent;
+    border: 0px !important;
+  }
+  .form-control-bg-none .ng-clear-wrapper{
+	  display: none;
+  }
+  .form-control-bg-none .ng-arrow-wrapper{
+	  display: none;
+  }
+
+  .dataGridTable table .rs-rwo-redbackground{
+    background: #bf7373 !important;
+    color: #fff;
+}
+.dataGridTable table .rs-rwo-redbackground:nth-child(2n+2) {
+    background: #bf7373 !important;
+    color: #fff;
+}
+ 
+table.dataTable.hover tbody .rs-entry-data-table-row:hover {
+	background: #9e5757 !important; color: #fff !important;
+}
+.purchase-without-type typeahead-container.dropdown.open.dropdown-menu {
+    height: 200px !important;
+    border: solid 2px #54708b;
+}
+
+/* type-ahead-list-content-padding */
+.type-ahead-list-content-padding typeahead-container.dropdown.open.dropdown-menu {
+    padding: 0px;
+    margin: 0px;
+}
+.type-ahead-list-content-padding button.dropdown-item {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.result_Entry table tbody tr:first-child {
+    display: none;
+}
+.result_Entry table tbody tr:last-child {
+    display: none;
+}
+
+/* ====================meterial-management-typeahead==================================== */
+.material-loader-icon{
+float: right;
+margin-top: -22px;
+margin-right: 7px;
+}
+.material-loader-icon i{
+	color: green;
+font-weight: bold;
+font-size: 14px;
+}
+.material-management-typeahead .dropdown-item {
+    padding: 0px;
+    border: 0px !important;
+}
+.material-management-typeahead typeahead-container.dropdown.open.dropdown-menu {
+    padding-top: 0px;
+}
+.material-management-typeahead typeahead-container.dropdown.open.dropdown-menu {
+	width: 98% !important;
+}
+
+.material-management-typeahead2 typeahead-container.dropdown.open.dropdown-menu {
+	width: 96.5% !important;
+}
+.material-management-typeahead3 typeahead-container.dropdown.open.dropdown-menu {
+	width: 97.5% !important;
+}
+.material-management-typeahead4 typeahead-container.dropdown.open.dropdown-menu {
+	width:100% !important;
+}
+.material-management-typeahead .dropdown-item table th {
+    background: #cfe2e4;
+}
+.material-management-typeahead .dropdown-item table td {
+    border: 1px solid #eae8e8;
+    word-break: break-word;font-size: 12.5px !important;
+}
+input.input-number-material{
+	height: 20px !important;
+}
+.pharmacy-service-typeahead typeahead-container.dropdown.open.dropdown-menu {
+	width: 98% !important;
+	left: 6px!important;
+	height: 208px!important;
+}
+.pharmacy-service-typeahead2 typeahead-container.dropdown.open.dropdown-menu {
+	width: 98% !important;
+	left: 6px!important;
+	height: 361px!important;
+	overflow: auto;
+}
+
+/* oncologyType */
+
+.oncology-Typeahead typeahead-container.dropdown.open.dropdown-menu {
+	width: 100% !important;
+	left: 6px!important;
+	height: 361px!important;
+	overflow: auto;
+	padding: 0px;
+}
+
+.oncologyDashType typeahead-container.dropdown.open.dropdown-menu{
+	width: 74% !important;
+	left: 79px !important;
+	padding: 2px !important;
+}
+.oncologyDashType typeahead-container.dropdown.open.dropdown-menu span{
+  white-space: break-spaces !important;
+}
+
+.oncologyProtocol .dropdown-item {
+	white-space: inherit!important;
+	padding: 2px!important;
+}
+.addpro-header .dropdown-header {
+    white-space: initial;
+    margin: 0 !important;
+    width: 100%;
+    display: block;
+    padding: 0px;
+    float: left;
+    top: 2px;
+    position: relative;
+    font-weight: bold;padding-left: 10px;
+    color: #000;margin-top: 6px !important;
+}
+.addpro-header .dropdown.open.dropdown-menu button {
+    padding-left: 22px !important;
+}
+
+
+/* type-ahead-whitespace-btn  */
+.type-ahead-whitespace-btn .dropdown-item{
+	white-space: initial;
+}
+
+/* sticky-0-typeahead */
+table.sticky-0-typeahead th{
+	top: 0px !important;
+}
+
+/* typeahead-width-dropdown */
+.typeahead-width-dropdown typeahead-container.dropdown.open.dropdown-menu {
+    width: 600px !important;
+}
+
+.oncologyTreat typeahead-container.dropdown.open.dropdown-menu {
+   padding: 2px !important;
+}
+
+
+.popover-oncology popover-container .set-left-value {
+    left: 257px !important;
+    top: 0px !important;
+    visibility: visible !important;
+}
+
+/* popover */
+.oncologyPop .popover.right .arrow {
+   display: none !important;
+  }
+.oncologyPop .popover.left .arrow {
+	display: none !important;}
+.oncologyPop .popover.top .arrow {
+      display: none !important;
+	 }
+ .oncologyPop .popover.bottom .arrow {
+        display: none !important;
+	   }
+.oncologyPop .popover-container	   {
+		   background-color: none!important;
+	   }
+
+.oncologyPop .popover-content {
+	padding: 4px 18px;
+    background: #4794a5!important;
+    margin-top: -18px!important;
+    border-radius: 3px;
+}
+
+  /* #popover .popover{
+    max-width: 400px!important;
+  } */
+
+  /* .app-popover-bottom:before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 175px;
+    border-style: solid;
+    border-width: 0px 9px 9px 9px;
+    border-color: grey transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+  }
+
+  .app-popover-bottom:after{
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 175px;
+    border-style: solid;
+    border-width: 0px 9px 9px 9px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+  } */
+
+  /* .app-popover-top:before 
+  {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 175px;
+    border-style: solid;
+    border-width: 9px 9px 0px 9px;
+    border-color: grey transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+  }
+  
+  .app-popover-top:after 
+  {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 75px;
+    border-style: solid;
+    border-width: 9px 9px 0px 9px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+  } */
+
+  .app-popover-right:before{
+    content: "";
+    position: relative;
+    top: -13px;
+    left:119px;
+    border-style: solid;
+    border-width: 9px 9px 9px 0px;
+    border-color: transparent #4794a5 ;
+    display: block;
+    width: 0;
+    z-index: 0;transform: rotate(90deg);
+  }
+
+/* bs-poopover */
+.bs-popover-left>.arrow::after {
+    right: 1px;
+    border-width: .5rem 0 .5rem .5rem;
+    border-left-color: #2452b8;
+}
+ .bs-popover-left>.arrow::before {
+    right: 0;
+    border-width: .5rem 0 .5rem .5rem;
+    border-left-color: #153695;
+}
+.bs-popover-left .arrow{
+    top: 44% !important;
+    transform: translateY(-50%);
+}
+
+/* full-layout css */
+  .pathology-grid-layout .cards tbody tr {
+    width: 10.2rem;
+    border: 1px solid #05788a;
+    height: 180px;
+}
+
+/* display board css */
+.setting-right .popover {
+    background: #000184 !important;
+    border: solid 1px #7a9fc3 !important;
+}
+.setting-right popover-container{
+	top: 28px !important;
+    left: -210px !important;
+}
+.setting-right .fa-cog {
+    right: 12px;
+    position: relative;
+}
+.setting-right .popover-header {
+    background:linear-gradient(135deg,#030438 0,#2124ff 100%) !important;
+    border-bottom: 1px solid #7a9fc3;
+    color: #FFF;
+}
+.setting-right .popoverInput{
+    border: 1px solid #4a93bf !important;
+    background: #000;
+    color: #fff !important;
+}
+.setting-right .btn-success {
+	background: linear-gradient(135deg,#17a2b8 0,#0306e0 100%) !important;
+    border-color: #1776af;
+    bottom: 2px;
+    position: relative;
+    border-left: 0px;
+}
+
+/* ============arrow-down-toggle=============== */
+.arrow-down-toggle {
+	width: 32px;
+	height:25px; border:0px;
+	position: relative;
+	background: transparent;top:9px;
+  }
+  
+  .arrow-down-toggle:before{
+   content: "";
+	  display: block;
+	  width: 13px;
+	  right: 14px;
+	  position: absolute;
+	  top: 10px;
+	  transition: transform .5s;
+	  border-top: solid 2px #000;
+	  border-bottom: solid 2px #000;
+	  transition: transform .5s;
+	  height:8px;
+  }
+   .arrow-down-toggle:after {
+	  content: "";
+	  display: block;
+	  width: 13px;
+	  height: 2px;
+	  background: #000;
+	  position: absolute;
+	  top: 22px;
+	  transition: transform .5s;
+	  left: 5px;
+  }
+  
+  .arrow-down-toggle.active:before {
+	transform: rotate(-45deg); border-bottom: 0px; top: 14px;border-color: #c40404;
+  }
+  
+  .arrow-down-toggle.active:after {
+	transform: rotate(45deg);
+    top: 15px;
+	left: 0px;
+	background: #c40404;
+  }
+  
+
+  /* table td th width */
+  .grid-name-item2-th{
+	width: 210px !important;  
+  }
+  .grid-name-item-th{
+	  width: 150px !important;
+	  word-break: break-all;
+  }
+
+
+  /* multidose */
+  .medMultidose .ng-select .ng-select-container .ng-value-container .ng-input>input {
+    border: 0 !important;  
+}
+.medMultidose .ng-select.ng-select-single .ng-select-container{
+
+    height: 26px !important;
+
+}
+.medMultidose .ng-select .ng-select-container  {
+    min-height: 26px !important;
+}
+
+.medMultidose .ng-dropdown-panel .ng-dropdown-panel-items .ng-option {
+    white-space: inherit !important;
+}
+
+.medMultidose .ng-dropdown-panel .ng-dropdown-panel-items .ng-option {
+    /* background-color: #fff;
+    color: rgb(215 58 58 / 87%); */
+    padding: 0px 1px;
+}
+
+  
+.reportingTime-width-ot table{
+    width: 140px !important;
+	left: 14px !important;
+}
+
+/* btn cutom group */
+.btn-cutom-colot-one{
+	background: #50841c
+}
+.btn-cutom-colot-two{
+	background: #4a6332
+}
+
+.drag-drop-custom-area{
+	width: 936px;
+}
+.page-wrapper.toggled .page-content .drag-drop-custom-area{
+	width: 100%;
+}
+.drag-drop-custom-area bs-sortable td {
+    padding: 1px 2px !important;
+    border: 1px solid #dee2e6;
+}
+
+/* for pacs report (mm)*/
+.pacsReportingEditor .tox .tox-sidebar-wrap { 
+	width: 830px;
+    background: #fff;
+    margin: auto;
+}
+.pacsReportingEditor .tox-edit-area__iframe{
+	width:693px !important;
+    border: solid;
+    margin: auto;
+    left: 60px;
+}
+
+.pacsReportingEditor .mce-content-body { 
+    padding: 0px 75px !important;
+}
+
+.pacsReportingEditor .tox-editor-container{
+	background: #09090994!important; 
+}
+
+.pacsReportingEditor{
+	height: 885px!important;
+}
+
+.pacsReportingEditor .tox-tinymce{
+	height: 842px!important;
+}
+
+.pacsReportingEditor .tox .tox-edit-area { 
+    border-left: 2px solid #6d9d92;
+    border-right: 2px solid #6d9d92;
+}
+
+/* select-transfer */
+.select-transfer .ng-select{
+	height: 24px;
+}
+.select-transfer .ng-select.ng-select-single .ng-select-container {
+    height: 24px;
+}
+.select-transfer .ng-select .ng-select-container {
+    background-color: rgba(0,0,0, 0.3);
+    border-radius: 27px;
+    min-height: 27px;
+
+}
+.select-transfer .ng-select .ng-select-container .ng-value-container .ng-placeholder {
+    color: #fff;
+}
+.select-transfer .ng-select .ng-select-container{
+	border:0px;
+}
+.select-transfer .ng-select.ng-select-opened>.ng-select-container {
+    background: rgba(0,0,0, 0.2);
+    color: #fff;
+}
+.select-transfer  .ng-select .ng-select-container {
+	color: #fff;
+}
+.select-transfer .ng-select .ng-select-container .ng-value-container .ng-input>input{
+	color: #fff;
+}
+.tootltip-custom{
+	position: relative;
+}
+.tooltip-span-custom{
+	position: absolute;
+    top: -55px;
+    right: 0px;
+    margin: auto;
+    background: #2262a3;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 6px;
+    white-space: nowrap;
+    min-width: 100px;
+    display: none;
+    text-align: left;
+}
+.tooltip-span-custom:after {
+    border-left: solid 8px transparent;
+    border-right: solid 8px transparent;
+    border-top: solid 8px #2262a3;
+    border-bottom: solid 6px transparent;
+    display: block;
+    content: '';
+    width: 12px;
+    margin: auto;
+    position: absolute;
+    /* left: 0px; */
+    right: 40px;
+    bottom: -13px;
+    min-width: 1;
+}
+.tootltip-custom:hover .tooltip-span-custom{
+	display: block;
+}
+
+
+/* .popover */
+.popover{ background-color: #000 !important;}
+.popover-body {
+    color: #fff !important;
+}
+.bs-popover-auto[x-placement^=top] .arrow::after, .bs-popover-top .arrow::after {
+    
+    border-top-color: #000 !important;
+}
+.bs-popover-top .arrow::after {
+    border-top-color: #000 !important;
+}
+.popover-area-custom .bs-popover-top .arrow::after {
+    border-top-color: #2262a3 !important;
+}
+
+.medica-custom .ng-select .ng-select-container {
+    height: 26px!important;
+    min-height: 26px!important;
+}
+.medica-custom1 .ng-select {
+    width: 86%!important;
+    font-size: 15px!important;
+}
+
+.medica-custom2 .ng-select {
+    width: 57%!important;
+    font-size: 15px!important;
+}
+.medica-custom3 .ng-select {
+    width: 64%!important;
+    font-size: 15px!important;
+}
+
+
+.page-wrapper.toggled .page-content .th-toogled-width1{
+	width: 43px !important;
+}
+.page-wrapper.toggled .page-content .th-toogled-width2{
+	width: 68px !important;
+}
+.page-wrapper.toggled .page-content .th-toogled-width3{
+	width: 99px !important;
+}
+.page-wrapper.toggled .page-content .toggled-th-width th{
+	font-size: 12px !important;
+}
+.page-wrapper.toggled .page-content .toggled-span-th{
+	left: 6px;
+    position: relative;
+    word-spacing: -1px;
+}
+
+.page-wrapper.toggled .page-content .th-width-gen1{
+	width: 38px !important;
+}
+.page-wrapper.toggled .page-content .th-width-gen3{
+	width: 91px !important;
+}
+.page-wrapper.toggled .page-content .th-width-gen2{
+	width: 96px !important;
+}
+.page-wrapper.toggled .page-content .th-width-gen4{
+	width: 100px !important;
+}
+.page-wrapper.toggled .page-content .th-width-left{
+	text-align: left !important;
+}
+.page-wrapper.toggled .page-content  .th-rea-span{
+	left: 6px;
+    position: relative;
+    word-spacing: -1px;
+}

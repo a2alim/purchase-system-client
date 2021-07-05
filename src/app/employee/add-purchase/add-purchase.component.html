@@ -1,0 +1,206 @@
+<app-nav></app-nav>
+<div class="container-fluid">
+  <div class="pannelArea p-0">
+    <ng-container>
+
+      <div class="top-form-area">
+        <div class="pannel-title">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Add Purchase</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row pl-3 pr-4">
+          <div class="col-lg-6 col-sm-12 pt-3 pb-2 border-right border-radius-left pr-5">
+            <div class="form-group row mb-1">
+              <label for="inputPassword" class="col-sm-3 col-form-label pr-0 text-right forom-label-title">
+                Supplier&nbsp;<span class="important">*</span></label>
+              <div class="col-sm-9">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ng-select placeholder="Seletc Supplier" [items]="supplierList"
+                          [(ngModel)]="purchaseObj.supplierNo" bindLabel="name" bindValue="supNo"
+                          (change)="changeSup($event)">
+                        </ng-select>
+                      </td>
+                      <td style="width: 30px;">
+                        <button class="btn btn-primary btn-table" (click)="addSupplier()"><i
+                            class="fas fa-user"></i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="form-group row mb-1 mt-2">
+              <label for="inputPassword" class="col-sm-3 col-form-label pr-0 text-right forom-label-title">Invoice
+                No&nbsp;<span class="important">*</span> </label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" placeholder="Invoice No" [(ngModel)]="purchaseObj.invoiceNo">
+              </div>
+            </div>
+            <div class="form-group row mb-1 mt-2 pt-2c">
+              <label for="inputPassword" class="col-sm-3 col-form-label pr-0 text-right forom-label-title">Payment
+                Type&nbsp;<span class="important">*</span> </label>
+              <div class="col-sm-9">
+                <ng-select placeholder="Seletc Payment Type" [items]="payTypeList" [(ngModel)]="purchaseObj.payTypeNo"
+                  bindLabel="payTypeName" bindValue="payTypeNo">
+                </ng-select>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-sm-12 pt-3 pb-2  pr-5">
+            <div class="form-group row mb-1 mt-2">
+              <label for="inputPassword" class="col-sm-3 col-form-label pr-0 text-right forom-label-title"> Purchase
+                Date&nbsp; <span class="important">*</span></label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control datePicker" bsDatepicker placeholder="Select date"
+                  [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="purchaseObj.purchaseDate">
+              </div>
+            </div>
+
+            <div class="form-group row mb-1 mt-2 pt-1c">
+              <label for="inputPassword" class="col-sm-3 col-form-label pr-0 text-right forom-label-title">
+                Details&nbsp;<span class="important">*</span></label>
+              <div class="col-sm-9">
+                <textarea class="form-control" [(ngModel)]="purchaseObj.details"></textarea>
+              </div>
+            </div>
+            <th>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="row m-0  mt-3 p-2">
+        <div class="custom-table">
+          <table class="table-bordered">
+            <thead>
+              <tr class="text-center">
+                <th>Item Information</th>
+                <th>Stock/Qnt</th>
+                <th>Quantity<span class="important">*</span></th>
+                <th>Rate <span class="important">*</span></th>
+                <th>Total</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ng-select placeholder="Seletc Product Name" [items]="itemList" [(ngModel)]="itemObj.itemNo"
+                    bindLabel="itemName" bindValue="itemNo" (change)="changeItem($event)">
+                  </ng-select>
+                </td>
+                <td>
+                  <input type="text" class="form-control text-right" placeholder="0.00" [(ngModel)]="itemObj.stockQty"
+                    disabled>
+                </td>
+                <td>
+                  <input type="text" class="form-control text-right" placeholder="00" [(ngModel)]="itemObj.purchaseQty"
+                    (keyup)="calTotalItem(itemObj)">
+                </td>
+                <td>
+                  <input type="text" class="form-control text-right" placeholder="0.00" [(ngModel)]="itemObj.purRate"
+                    (keyup)="calTotalItem(itemObj)">
+                </td>
+                <td>
+                  <input type="text" class="form-control text-right" placeholder="0.00" [(ngModel)]="itemObj.totalAmt"
+                    disabled>
+                </td>
+                <td class="text-center">
+                  <button type="button" class="btn btn-info" (click)="addItem(itemObj)">
+                    <i class="fas fa-plus-square"></i>
+                  </button>
+                </td>
+              </tr>
+              <ng-container *ngIf="purchaseObj.itemDtlList">
+                <tr *ngFor="let item of purchaseObj.itemDtlList; let i=index;">
+                  <td>{{item.itemName}}</td>
+                  <td class="text-right pr-3">{{item.stockQty}}</td>
+                  <td>
+                    <input type="text" class="form-control text-right" placeholder="00" [(ngModel)]="item.purchaseQty"
+                      (keyup)="calTotalItem(item)">
+                  </td>
+                  <td>
+                    <input type="text" class="form-control text-right" placeholder="0.00" [(ngModel)]="item.purRate"
+                      (keyup)="calTotalItem(item)">
+                  </td>
+                  <!-- <td class="text-right pr-3">{{item.purchaseQty}}</td>
+                  <td class="text-right pr-3">{{item.purRate}}</td> -->
+                  <td class="text-right pr-3">{{item.purchaseQty*item.purRate}}</td>
+                  <td class="text-center">
+                    <button type="button" class="btn btn-danger" (click)="removeItem(i)">
+                      <i class="fas fa-window-close"></i>
+                    </button>
+                  </td>
+                </tr>
+              </ng-container>
+              <tr class="text-right">
+                <td colspan="4">Total :</td>
+                <td>
+                  <input type="text" class="form-control text-right" [(ngModel)]="purchaseObj.totalAmt" disabled>
+                </td>
+                <td class="text-center">
+                </td>
+              </tr>
+              <tr class="text-right">
+                <td colspan="4">Discount :</td>
+                <td>
+                  <input type="text" class="form-control text-right" [(ngModel)]="purchaseObj.discountAmt"
+                    (keyup)="calGrandTotal()">
+                </td>
+                <td></td>
+              </tr>
+              <tr class="text-right">
+                <td colspan="4">Grand Total :</td>
+                <td>
+                  <input type="text" class="form-control text-right" [(ngModel)]="purchaseObj.grandTotal" disabled>
+                </td>
+                <td></td>
+              </tr>
+              <tr class="text-right">
+                <td colspan="4">Paid Amount :</td>
+                <td>
+                  <input type="text" class="form-control text-right" [(ngModel)]="purchaseObj.paidAmt"
+                    (keyup)="calDueAmt()">
+                </td>
+                <td> </td>
+              </tr>
+              <tr class="text-right">
+                <td colspan="2">
+                  <button type="button" class="btn btn-danger" (click)="calFullPaid()">Full Paid</button>
+                </td>
+                <td colspan="2">
+                  Due Amount :
+                </td>
+                <td>
+                  <input type="text" class="form-control text-right" [(ngModel)]="purchaseObj.dueAmt" disabled>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="footer-area">
+          <div class="col-md-12 text-right">
+            <button type="button" class="btn btn-primary" (click)="saveOrUpdate()" [disabled]="saveBtn">
+              <i class="fas fa-sync-alt loaderIcon" *ngIf="saveBtn"></i>
+              <i class="fas fa-save" *ngIf="!saveBtn"></i>
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+<app-footer></app-footer>

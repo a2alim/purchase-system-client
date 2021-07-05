@@ -1,0 +1,15 @@
+.footerContent{
+    width: 100%;
+    float: left;
+    color: #1a73e8;
+    bottom: 0px;
+    background:#343a40;
+    padding: 6px;
+}
+.footerContent p{
+    margin-bottom: 0px;
+    color: #e5e7e8;
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}

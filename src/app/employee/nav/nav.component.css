@@ -1,0 +1,25 @@
+/* .navbar-nav {
+    flex-direction: row;
+    list-style: inside;
+} */
+
+.nav-custom{
+    background: #585799;
+    background: linear-gradient(
+178deg
+, #585799 0, #6463a1 100%) !important;
+    background: -moz-linear-gradient(178deg, #585799 0, #6463a1 100%) !important;
+    background: -moz-linear-gradient-webkit-linear-gradient(178deg, #585799 0, #6463a1 100%) !important;
+    border-bottom: solid 2px #f1f1f1;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    padding: 0px;margin-bottom: 30px;
+}
+.nav-custom li a {
+    color: #fff !important;
+    font-size:17px;
+    font-weight: normal;padding: 14px 18px;
+}
+
+.active{
+    background: #464580  !important;
+}

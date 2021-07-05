@@ -1,0 +1,16 @@
+.salTbl{
+    width: 250px !important;
+    position: absolute;
+    height: 39px;
+    right: 150px;
+}
+.sal{
+    min-height: 150px;
+}
+
+.invalid{
+    border: 1px solid red !important;
+}
+.height{
+    height: 50px;
+}

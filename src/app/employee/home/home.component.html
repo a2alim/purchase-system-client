@@ -1,0 +1,31 @@
+<div class="container mt-5 login-form">
+    <div class="row">
+        <div class="col-md-6 col-sm-8 col-xs-6 offset-md-3 mt-5">
+            <div class="panel panel-default mt-5">
+                <div class="panel-body pt-4">
+                    <h2 class="mt-0 mb-4 head">Admin Login</h2>
+                    <div class="form-group">
+                        <label>User Name </label>
+                        <div class="icon-holder">
+                            <input type="text" class="form-control" [(ngModel)]="userName" (keyup)="idChange()"
+                                [ngClass]="{ 'invalid': isId }">
+                            <i class="fa fa-user icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <div class="icon-holder">
+                            <input type="password" class="form-control" [(ngModel)]="pasword" (keyup)="passChange()"
+                                [ngClass]="{ 'invalid': isPassword }">
+                            <i class="fa fa-lock icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-primary btn-block btn-pall" (click)="login()">Login </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-2 col-xs-3"></div>
+    </div>
+</div>
